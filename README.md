@@ -1,112 +1,94 @@
-# Aseprite
-
-[![build](https://github.com/aseprite/aseprite/actions/workflows/build.yml/badge.svg)](https://github.com/aseprite/aseprite/actions/workflows/build.yml)
-[![Translation Status](https://hosted.weblate.org/widget/aseprite/aseprite/svg-badge.svg)](https://hosted.weblate.org/engage/aseprite/)
-[![Discourse Community](https://img.shields.io/badge/discourse-community-brightgreen.svg?style=flat)](https://community.aseprite.org/)
-[![Discord Server](https://discordapp.com/api/guilds/324979738533822464/embed.png)](https://discord.gg/Yb2CeX8)
-
-## Introduction
-
-**Aseprite** is a program to create animated sprites. Its main features are:
-
-* Sprites are composed of [layers &amp; frames](https://www.aseprite.org/docs/timeline/) as separated concepts.
-* Support for [color profiles](https://www.aseprite.org/docs/color-profile/) and different [color modes](https://www.aseprite.org/docs/color-mode/): RGBA, Indexed (palettes up to 256 colors), Grayscale.
-* [Animation facilities](https://www.aseprite.org/docs/animation/), with real-time [preview](https://www.aseprite.org/docs/preview-window/) and [onion skinning](https://www.aseprite.org/docs/onion-skinning/).
-* [Export/import](https://www.aseprite.org/docs/exporting/) animations to/from [sprite sheets](https://www.aseprite.org/docs/sprite-sheet/), GIF files, or sequence of PNG files (and FLC, FLI, JPG, BMP, PCX, TGA).
-* [Multiple editors](https://www.aseprite.org/docs/workspace/#drag-and-drop-tabs) support.
-* [Layer groups](https://imgur.com/x3OKkGj) for organizing your work, and [reference layers](https://twitter.com/aseprite/status/806889204601016325) for rotoscoping.
-* Pixel-art specific tools like [Pixel Perfect freehand mode](https://imgur.com/0fdlNau), [Shading ink](https://www.aseprite.org/docs/shading/), [Custom Brushes](https://twitter.com/aseprite/status/1196883990080344067), [Outlines](https://twitter.com/aseprite/status/1126548469865431041), [Wide Pixels](https://imgur.com/1yZKUcs), etc.
-* Other special drawing tools like [Pressure sensitivity](https://twitter.com/aseprite/status/1253770784708886533), [Symmetry Tool](https://twitter.com/aseprite/status/659709226747625472), [Stroke and Fill](https://imgur.com/7JZQ81o) selection, [Gradients](https://twitter.com/aseprite/status/1126549217856622597).
-* [Tiled mode](https://youtu.be/G_JeWBaxQIg) useful to draw patterns and textures.
-* [Transform multiple frames/layers](https://twitter.com/aseprite/status/1170007034651172866) at the same time.
-* [Lua scripting capabilities](https://www.aseprite.org/docs/scripting/).
-* [CLI - Command Line Interface](https://www.aseprite.org/docs/cli/) to automatize tasks.
-* [Quick Reference / Cheat Sheet](https://www.aseprite.org/quickref/) keyboard shortcuts ([customizable keys](https://imgur.com/rvAUxyF) and [mouse wheel](https://imgur.com/oNqFqVb)).
-* [Reopen closed files](https://twitter.com/aseprite/status/1202641475256881153) and [recover data](https://www.aseprite.org/docs/data-recovery/) in case of crash.
-* Undo/Redo for every operation and support for [non-linear undo](https://imgur.com/9I42fZK).
-* [More features &amp; tips](https://twitter.com/aseprite/status/1124442198651678720)
-
-## Issues
-
-There is a list of
-[Known Issues](https://github.com/aseprite/aseprite/issues) (things
-to be fixed or that aren't yet implemented).
-
-If you found a bug or have a new idea/feature for the program,
-[you can report them](https://github.com/aseprite/aseprite/issues/new).
-
-## Support
-
-You can ask for help in:
-
-* [Aseprite Community](https://community.aseprite.org/)
-* [Aseprite Discord Server](https://discord.gg/Yb2CeX8)
-* Official support: [support@aseprite.org](mailto:support@aseprite.org)
-* Social networks and community-driven places:
-  [Twitter](https://twitter.com/aseprite/),
-  [Facebook](https://facebook.com/aseprite/),
-  [YouTube](https://www.youtube.com/user/aseprite),
-  [Instagram](https://www.instagram.com/aseprite/).
-
-## Authors
-
-Aseprite is being developed by [Igara Studio](https://igara.com/):
-
-* [David Capello](https://davidcapello.com/)
-* [Gaspar Capello](https://github.com/Gasparoken)
-* [Martín Capello](https://github.com/martincapello)
-
-## Credits
-
-The default Aseprite theme was introduced in v0.8, created by:
-
-* [Ilija Melentijevic](https://ilkke.net/)
-
-A modified dark version of this theme introduced in v1.3-beta1 was created by:
-
-* [Nicolas Desilets](https://twitter.com/MapleGecko)
-* [David Capello](https://twitter.com/davidcapello)
-
-Aseprite includes color palettes created by:
-
-* [Richard "DawnBringer" Fhager](http://pixeljoint.com/p/23821.htm), [16 colors](http://pixeljoint.com/forum/forum_posts.asp?TID=12795),  [32 colors](http://pixeljoint.com/forum/forum_posts.asp?TID=16247).
-* [Arne Niklas Jansson](http://androidarts.com/), [16 colors](http://androidarts.com/palette/16pal.htm), [32 colors](http://wayofthepixel.net/index.php?topic=15824.msg144494).
-* [ENDESGA Studios](https://twitter.com/ENDESGA), [EDG16 and EDG32](https://forums.tigsource.com/index.php?topic=46126.msg1279124#msg1279124), and [other palettes](https://twitter.com/ENDESGA/status/865812366931353600).
-* [Hyohnoo Games](https://twitter.com/Hyohnoo), [mail24](https://twitter.com/Hyohnoo/status/797472587974639616) palette.
-* [Davit Masia](https://twitter.com/DavitMasia), [matriax8c](https://twitter.com/DavitMasia/status/834862452164612096) palette.
-* [Javier Guerrero](https://twitter.com/Xavier_Gd), [nyx8](https://twitter.com/Xavier_Gd/status/868519467864686594) palette.
-* [Adigun A. Polack](https://twitter.com/adigunpolack), [AAP-64](http://pixeljoint.com/pixelart/119466.htm), [AAP-Splendor128](http://pixeljoint.com/pixelart/120714.htm), [SimpleJPC-16](http://pixeljoint.com/pixelart/119844.htm), and [AAP-Micro12](http://pixeljoint.com/pixelart/121151.htm) palette.
-* [PineTreePizza](https://twitter.com/PineTreePizza), [Rosy-42](https://twitter.com/PineTreePizza/status/1006536191955623938) palette.
-
-It tries to replicate some pixel-art algorithms:
-
-* [RotSprite](http://forums.sonicretro.org/index.php?showtopic=8848&st=15&p=159754&#entry159754) by Xenowhirl.
-* [Pixel perfect drawing algorithm](https://deepnight.net/blog/tools/pixel-perfect-drawing/) by [Sébastien Bénard](https://twitter.com/deepnightfr) and [Carduus](https://twitter.com/CarduusHimself/status/420554200737935361).
-
-Thanks to [third-party open source projects](docs/LICENSES.md), to
-[contributors](https://www.aseprite.org/contributors/), and all the
-people who have contributed ideas, patches, bugs report, feature
-requests, donations, and help us to develop Aseprite.
-
-## License
-
-This program is distributed under three different licenses:
-
-1. Source code and official releases/binaries are distributed under
-   our [End-User License Agreement for Aseprite (EULA)](EULA.txt). Please check
-   that there are [modules/libraries in the source code](src/README.md) that
-   are distributed under the MIT license
-   (e.g. [laf](https://github.com/aseprite/laf),
-   [clip](https://github.com/aseprite/clip),
-   [undo](https://github.com/aseprite/undo),
-   [observable](https://github.com/aseprite/observable),
-   [ui](src/ui), etc.).
-2. You can request a special
-   [educational license](https://www.aseprite.org/faq/#is-there-an-educational-license)
-   in case you are a teacher in an educational institution and want to
-   use Aseprite in your classroom (in-situ).
-3. Steam releases are distributed under the terms of the
-   [Steam Subscriber Agreement](http://store.steampowered.com/subscriber_agreement/).
-
-You can get more information about Aseprite license in the
-[FAQ](https://www.aseprite.org/faq/#licensing-&-commercial).
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">粗糙</font></font></h1><a id="user-content-aseprite" class="anchor" aria-label="永久链接：Aseprite" href="#aseprite"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://github.com/aseprite/aseprite/actions/workflows/build.yml"><img src="https://github.com/aseprite/aseprite/actions/workflows/build.yml/badge.svg" alt="建造" style="max-width: 100%;"></a>
+<a href="https://hosted.weblate.org/engage/aseprite/" rel="nofollow"><img src="https://camo.githubusercontent.com/1d972c417eed414452e9d3ca332d6757a34964f2f3d32341e615cd54762dbb9d/68747470733a2f2f686f737465642e7765626c6174652e6f72672f7769646765742f61736570726974652f61736570726974652f7376672d62616467652e737667" alt="翻译状态" data-canonical-src="https://hosted.weblate.org/widget/aseprite/aseprite/svg-badge.svg" style="max-width: 100%;"></a>
+<a href="https://community.aseprite.org/" rel="nofollow"><img src="https://camo.githubusercontent.com/04111137d9ad4f8449fbe32ef4b58ea61858badbf547c4fedc95f3a99181f5b6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646973636f757273652d636f6d6d756e6974792d627269676874677265656e2e7376673f7374796c653d666c6174" alt="话语社区" data-canonical-src="https://img.shields.io/badge/discourse-community-brightgreen.svg?style=flat" style="max-width: 100%;"></a>
+<a href="https://discord.gg/Yb2CeX8" rel="nofollow"><img src="https://camo.githubusercontent.com/02bedc421fdace3822306432af9ce790cc5ebaee905e0b2ac00908c6ec6001c1/68747470733a2f2f646973636f72646170702e636f6d2f6170692f6775696c64732f3332343937393733383533333832323436342f656d6265642e706e67" alt="不和谐服务器" data-canonical-src="https://discordapp.com/api/guilds/324979738533822464/embed.png" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">介绍</font></font></h2><a id="user-content-introduction" class="anchor" aria-label="永久链接：简介" href="#introduction"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Aseprite</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个创建动画精灵的程序。其主要特点是：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">精灵由作为独立概念的</font></font><a href="https://www.aseprite.org/docs/timeline/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">层和帧</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组成。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持</font></font><a href="https://www.aseprite.org/docs/color-profile/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">颜色配置文件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和不同的</font></font><a href="https://www.aseprite.org/docs/color-mode/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">颜色模式</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：RGBA、索引（调色板最多 256 种颜色）、灰度。</font></font></li>
+<li><a href="https://www.aseprite.org/docs/animation/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">动画设施</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，具有实时</font></font><a href="https://www.aseprite.org/docs/preview-window/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">预览</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://www.aseprite.org/docs/onion-skinning/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">洋葱皮功能</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><a href="https://www.aseprite.org/docs/exporting/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">动画导出到</font></font><a href="https://www.aseprite.org/docs/sprite-sheet/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">精灵表</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、GIF 文件或 PNG 文件序列（以及 FLC、FLI、JPG、BMP、PCX、TGA）。</font></font></li>
+<li><a href="https://www.aseprite.org/docs/workspace/#drag-and-drop-tabs" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多个编辑器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持。</font></font></li>
+<li><a href="https://imgur.com/x3OKkGj" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于组织工作的图层组</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和用于动态观察</font></font><a href="https://twitter.com/aseprite/status/806889204601016325" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的参考图层</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">像素艺术专用工具，如</font></font><a href="https://imgur.com/0fdlNau" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pixel Perfect 手绘模式</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://www.aseprite.org/docs/shading/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">着色墨水</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://twitter.com/aseprite/status/1196883990080344067" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自定义画笔</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://twitter.com/aseprite/status/1126548469865431041" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">轮廓</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://imgur.com/1yZKUcs" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">宽像素</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他特殊绘图工具，如</font></font><a href="https://twitter.com/aseprite/status/1253770784708886533" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">压力灵敏度</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://twitter.com/aseprite/status/659709226747625472" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对称工具</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://imgur.com/7JZQ81o" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">描边和填充</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选择、</font></font><a href="https://twitter.com/aseprite/status/1126549217856622597" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">渐变</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><a href="https://youtu.be/G_JeWBaxQIg" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">平铺模式</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于绘制图案和纹理很有用。</font></font></li>
+<li><a href="https://twitter.com/aseprite/status/1170007034651172866" rel="nofollow"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同时</font><a href="https://twitter.com/aseprite/status/1170007034651172866" rel="nofollow"><font style="vertical-align: inherit;">变换多个帧/层。</font></a></font></li>
+<li><a href="https://www.aseprite.org/docs/scripting/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lua 脚本编写能力</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><a href="https://www.aseprite.org/docs/cli/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CLI - 用于自动化任务的命令行界面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><a href="https://www.aseprite.org/quickref/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快速参考/备忘单键盘</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快捷键（</font></font><a href="https://imgur.com/rvAUxyF" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可自定义按键</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://imgur.com/oNqFqVb" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">鼠标滚轮</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></li>
+<li><a href="https://twitter.com/aseprite/status/1202641475256881153" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重新打开关闭的文件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font><font style="vertical-align: inherit;">在崩溃时</font></font><a href="https://www.aseprite.org/docs/data-recovery/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">恢复数据。</font></font></a><font style="vertical-align: inherit;"></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对每个操作进行撤消/重做并支持</font></font><a href="https://imgur.com/9I42fZK" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">非线性撤消</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><a href="https://twitter.com/aseprite/status/1124442198651678720" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多功能和提示</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题</font></font></h2><a id="user-content-issues" class="anchor" aria-label="永久链接：问题" href="#issues"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有一个
+</font></font><a href="https://github.com/aseprite/aseprite/issues"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">已知问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">列表（需要修复或尚未实施的问题）。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您发现错误或对该程序有新的想法/功能，
+</font></font><a href="https://github.com/aseprite/aseprite/issues/new"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以报告它们</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持</font></font></h2><a id="user-content-support" class="anchor" aria-label="永久链接： 支持" href="#support"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在以下方面寻求帮助：</font></font></p>
+<ul dir="auto">
+<li><a href="https://community.aseprite.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Aseprite 社区</font></font></a></li>
+<li><a href="https://discord.gg/Yb2CeX8" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Aseprite 不一致服务器</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方支持：</font></font><a href="mailto:support@aseprite.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">support@aseprite.org</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社交网络和社区驱动的场所：
+ </font></font><a href="https://twitter.com/aseprite/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Twitter</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、
+ </font></font><a href="https://facebook.com/aseprite/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Facebook</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、
+ </font></font><a href="https://www.youtube.com/user/aseprite" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YouTube</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、
+ </font></font><a href="https://www.instagram.com/aseprite/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Instagram</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作者</font></font></h2><a id="user-content-authors" class="anchor" aria-label="永久链接：作者" href="#authors"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://igara.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Aseprite 正在由Igara Studio</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发</font><font style="vertical-align: inherit;">：</font></font></p>
+<ul dir="auto">
+<li><a href="https://davidcapello.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大卫·卡佩罗</font></font></a></li>
+<li><a href="https://github.com/Gasparoken"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加斯帕·卡佩罗</font></font></a></li>
+<li><a href="https://github.com/martincapello"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">马丁·卡佩罗</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">制作人员</font></font></h2><a id="user-content-credits" class="anchor" aria-label="永久链接：学分" href="#credits"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认的 Aseprite 主题是在 v0.8 中引入的，由以下人员创建：</font></font></p>
+<ul dir="auto">
+<li><a href="https://ilkke.net/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">伊利亚·梅伦蒂耶维奇</font></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">v1.3-beta1 中引入的该主题的修改黑暗版本由以下人员创建：</font></font></p>
+<ul dir="auto">
+<li><a href="https://twitter.com/MapleGecko" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尼古拉斯·德西莱</font></font></a></li>
+<li><a href="https://twitter.com/davidcapello" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大卫·卡佩罗</font></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Aseprite 包括由以下人员创建的调色板：</font></font></p>
+<ul dir="auto">
+<li><a href="http://pixeljoint.com/p/23821.htm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">理查德“黎明使者”法格</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="http://pixeljoint.com/forum/forum_posts.asp?TID=12795" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">16 种颜色</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，   </font></font><a href="http://pixeljoint.com/forum/forum_posts.asp?TID=16247" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">32 种颜色</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><a href="http://androidarts.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Arne Niklas Jansson</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="http://androidarts.com/palette/16pal.htm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">16 种颜色</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="http://wayofthepixel.net/index.php?topic=15824.msg144494" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">32 种颜色</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><a href="https://twitter.com/ENDESGA" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ENDESGA Studios</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://forums.tigsource.com/index.php?topic=46126.msg1279124#msg1279124" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">EDG16 和 EDG32</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以及</font></font><a href="https://twitter.com/ENDESGA/status/865812366931353600" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他调色板</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><a href="https://twitter.com/Hyohnoo" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Hyohnoo 游戏</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://twitter.com/Hyohnoo/status/797472587974639616" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">mail24</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调色板。</font></font></li>
+<li><a href="https://twitter.com/DavitMasia" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Davit Masia</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="https://twitter.com/DavitMasia/status/834862452164612096" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">matriax8c</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调色板。</font></font></li>
+<li><a href="https://twitter.com/Xavier_Gd" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">哈维尔·格雷罗</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="https://twitter.com/Xavier_Gd/status/868519467864686594" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">nyx8</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调色板。</font></font></li>
+<li><a href="https://twitter.com/adigunpolack" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Adigun A. Pollack</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="http://pixeljoint.com/pixelart/119466.htm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AAP-64</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="http://pixeljoint.com/pixelart/120714.htm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AAP-Splendor128</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="http://pixeljoint.com/pixelart/119844.htm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SimpleJPC-16</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="http://pixeljoint.com/pixelart/121151.htm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AAP-Micro12</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调色板。</font></font></li>
+<li><a href="https://twitter.com/PineTreePizza" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PineTreePizza</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="https://twitter.com/PineTreePizza/status/1006536191955623938" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Rosy-42</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调色板。</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它试图复制一些像素艺术算法：</font></font></p>
+<ul dir="auto">
+<li><a href="http://forums.sonicretro.org/index.php?showtopic=8848&amp;st=15&amp;p=159754&amp;#entry159754" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Xenowhirl 的RotSprite</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><a href="https://deepnight.net/blog/tools/pixel-perfect-drawing/" rel="nofollow"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font><a href="https://twitter.com/deepnightfr" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sébastien Bénard</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://twitter.com/CarduusHimself/status/420554200737935361" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Carduus</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font><a href="https://deepnight.net/blog/tools/pixel-perfect-drawing/" rel="nofollow"><font style="vertical-align: inherit;">像素完美绘图算法</font></a><font style="vertical-align: inherit;">。</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感谢</font></font><a href="/aseprite/aseprite/blob/main/docs/LICENSES.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第三方开源项目</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、
+</font></font><a href="https://www.aseprite.org/contributors/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献者</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以及所有贡献想法、补丁、错误报告、功能请求、捐赠并帮助我们开发 Aseprite 的人们。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该程序根据三个不同的许可证分发：</font></font></p>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"></font><a href="/aseprite/aseprite/blob/main/EULA.txt"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">源代码和官方版本/二进制文件根据我们的Aseprite 最终用户许可协议 (EULA)</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分发</font><font style="vertical-align: inherit;">。请检查</font></font><a href="/aseprite/aseprite/blob/main/src/README.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">源代码中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是否有</font><font style="vertical-align: inherit;">根据 MIT 许可证分发的模块/库（例如</font></font><a href="https://github.com/aseprite/laf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">laf</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、
+ </font></font><a href="https://github.com/aseprite/clip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Clip</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、
+ </font></font><a href="https://github.com/aseprite/undo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">undo</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、
+ </font></font><a href="https://github.com/aseprite/observable"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">observable</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、
+ </font></font><a href="/aseprite/aseprite/blob/main/src/ui"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ui</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等）。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+如果您是教育机构的教师并希望在教室（现场）使用 Aseprite，</font><font style="vertical-align: inherit;">您可以申请特殊教育
+</font></font><a href="https://www.aseprite.org/faq/#is-there-an-educational-license" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许可证。</font></font></a><font style="vertical-align: inherit;"></font></li>
+<li><font style="vertical-align: inherit;"></font><a href="http://store.steampowered.com/subscriber_agreement/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Steam 版本根据Steam 订阅者协议</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的条款进行分发
+</font><font style="vertical-align: inherit;">。</font></font></li>
+</ol>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在
+</font></font><a href="https://www.aseprite.org/faq/#licensing-&amp;-commercial" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">常见问题解答</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中获取有关 Aseprite 许可证的更多信息。</font></font></p>
+</article></div>
